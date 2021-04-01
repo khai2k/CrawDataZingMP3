@@ -1,0 +1,57 @@
+Arguments: 
+  C:\Program Files\nodejs\node.exe C:\Program Files (x86)\Yarn\bin\yarn.js
+
+PATH: 
+  C:\Users\admin\OneDrive\Desktop\WINDOWS.X64_193000_db_home\bin;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files (x86)\Yarn\bin\;C:\Program Files\Git\cmd;C:\Program Files\PuTTY\;C:\Program Files\dotnet\;C:\Program Files\Microsoft SQL Server\130\Tools\Binn\;C:\Program Files\Microsoft SQL Server\Client SDK\ODBC\170\Tools\Binn\;C:\ProgramData\chocolatey\bin;C:\Program Files\OpenJDK\openjdk-8u282-b08\bin;C:\Users\admin\AppData\Roaming\nvm;C:\Program Files\nodejs;C:\Program Files\Java\jdk1.8.0_281\bin;;C:\Program Files\Docker\Docker\resources\bin;C:\ProgramData\DockerDesktop\version-bin;C:\Users\admin\AppData\Local\Microsoft\WindowsApps;C:\Users\admin\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\admin\AppData\Local\Yarn\bin;C:\Users\admin\AppData\Local\gitkraken\bin;C:\Users\admin\.dotnet\tools;C:\Users\admin\AppData\Local\Android\Sdk\platform-tools;C:\Users\admin\AppData\Roaming\npm
+
+Yarn version: 
+  1.22.5
+
+Node version: 
+  12.13.0
+
+Platform: 
+  win32 x64
+
+Trace: 
+  SyntaxError: E:\khai\web_clone\ZingMp3API\package.json: Unexpected token } in JSON at position 437
+      at JSON.parse (<anonymous>)
+      at C:\Program Files (x86)\Yarn\lib\cli.js:1625:59
+      at Generator.next (<anonymous>)
+      at step (C:\Program Files (x86)\Yarn\lib\cli.js:310:30)
+      at C:\Program Files (x86)\Yarn\lib\cli.js:321:13
+
+npm manifest: 
+  {
+    "name": "zingmp3-api",
+    "version": "1.0.3",
+    "description": "ZingMp3 API",
+    "main": "index.js",
+    "scripts": {
+      "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "author": "whoant <vovanhoangtuan4.2@gmail.com>",
+    "keywords": [
+      "ZingMp3",
+      "zingmp3",
+      "zing",
+      "mp3",
+      "api-music",
+      "music"
+    ],
+    "license": "ISC",
+    "dependencies": {
+      "request": "^2.88.2",
+      "request-promise": "^4.2.6",
+    },
+    "repository": {
+      "type": "git",
+      "url": "git//github.com/whoant/ZingMp3API.git"
+    }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
